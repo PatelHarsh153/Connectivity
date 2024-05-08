@@ -1,0 +1,17 @@
+.link {
+  height: 2rem;
+  width: 50vw;
+
+  border-radius: 5rem;
+  margin: 0.8rem 0;
+  text-decoration: none !important;
+  border: 1px solid var(--primary);
+}
+.linkTitle {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-weight: 500;
+}

@@ -1,0 +1,77 @@
+.linktreeContainer {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.linktreeContainerInner {
+  height: auto;
+  width: 50rem;
+  padding-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.socialmediaContainerMain {
+  margin: 2rem 0 0 0;
+}
+.linktreeContainerInner img {
+  height: 5rem;
+  width: 5rem;
+  object-fit: cover;
+}
+.avatar {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover;
+}
+.avatarContainer {
+  height: 5rem !important;
+  width: 5rem !important;
+  overflow: hidden;
+  border-radius: 50%;
+}
+.userhandle {
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-top: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--cccccc);
+}
+.userdes {
+  font-size: 20px;
+  text-transform: capitalize;
+  font-weight: 500;
+  margin-top: 0.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--cccccc);
+}
+.linkContainer {
+  margin-top: 2rem;
+}
+.shareBtn {
+  cursor: pointer;
+  margin-left: 0.5rem;
+  border-radius: 0.2rem;
+  padding: 0.1rem;
+}
+.getYourOwnLinkTree {
+  position: absolute;
+  top: 0;
+  right: 0;
+  text-decoration: none;
+  margin: 2rem;
+  color: var(--primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+}

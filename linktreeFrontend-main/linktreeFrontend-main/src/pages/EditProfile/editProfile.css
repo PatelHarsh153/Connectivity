@@ -1,0 +1,55 @@
+.editProfileContainer {
+  height: auto;
+  width: 100vw;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  margin: 5rem 0;
+}
+.editProfileContainerInner {
+  width: 50%;
+  height: auto;
+}
+.editUserInfo,
+.editUserSocials {
+  display: flex;
+  flex-direction: column;
+}
+.editUserInfo input,
+.editUserSocials input {
+  padding: 1rem;
+  width: 30rem;
+}
+.editUserInfo form,
+.editUserSocials form {
+  border: none;
+  height: 100%;
+  width: 100%;
+}
+.editUserInfo button,
+.editUserSocials button {
+  align-items: flex-end;
+  margin-top: 1rem;
+  padding-inline: 10px;
+  border: 1px solid var(--primary);
+  font-weight: 500;
+}
+/* .editUserInfoTitle{
+ text-align: start;
+ text-transform: capitalize;
+} */
+.editUserSocialsTitle {
+  text-align: center;
+  font-size: 25px;
+  text-transform: capitalize;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: var(--white);
+}
+
+.editUserSocials {
+  margin-top: 3rem;
+}
+form input::placeholder {
+  color: rgba(128, 128, 128, 0.666) !important;
+}

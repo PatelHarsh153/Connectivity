@@ -1,0 +1,50 @@
+.dashboardContainer {
+  height: 3rem;
+  display: flex;
+  /* position: fixed; */
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--primary);
+  padding: 0 2rem;
+  border-bottom: 0.1px solid rgba(255, 255, 255, 0.101);
+}
+.avtar {
+  height: 2rem;
+  width: 2rem;
+  overflow: hidden;
+  border-radius: 70%;
+}
+.avtar img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.profileTitle,
+.redirectLinkTree {
+  font-size: small;
+  font-weight: 600;
+}
+.porfileCta {
+  display: flex;
+  align-items: center;
+}
+.profileInfo {
+  height: auto;
+  width: max-content;
+  background-color: var(--tertiary);
+  margin: auto;
+  padding: 8px 5px;
+  border-radius: 15px;
+}
+.profileTitle {
+  color: var(--primary);
+}
+.profileInfoContainer {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 10px;
+}
+.logout {
+  margin: 0 1rem;
+  cursor: pointer;
+}

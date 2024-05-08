@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Gabarito:wght@600&display=swap");
+.form {
+  background-color: var(--tertiary);
+  color: var(--primary);
+}
+.form label {
+  color: var(--primary);
+}
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.container span {
+  font-family: "Gabarito", cursive;
+  font-size: 60px;
+  color: #ffffff82;
+}
+.errorMessage {
+  color: #ff0000;
+}
